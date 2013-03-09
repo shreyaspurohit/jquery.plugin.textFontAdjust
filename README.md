@@ -6,9 +6,11 @@ It is sometime necessary that text font size adjusts and decreases based on the 
 Usage
 -----
 Include the script in the head of the HTML page.
+
 	<script language="javascript" type="text/javascript" src="jquery.textFontAdjust.js"></script>
 	
 On document ready or when needed call the plugin.
+
 	$(parentContainer).textFontAdjust(textElement, options);
 
 'parentContainer' is the container div that contains the text element 'textElement' which can be a label or a span containing text.
